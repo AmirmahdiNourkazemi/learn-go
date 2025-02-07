@@ -47,5 +47,12 @@ func main() {
 	fmt.Printf("%v %v %v %q\n", i, f, b, s)
 
 	h := false
-	fmt.Printf("The value of h is %v and it's type is %T", h, h)
+	fmt.Printf("The value of h is %v and it's type is %T \n", h, h)
+
+	const Truth = true
+	fmt.Println(Truth)
+
+	loop()
+	forContinue()
+	while()
 }
