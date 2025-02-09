@@ -55,4 +55,7 @@ func main() {
 	loop()
 	forContinue()
 	while()
+	ifCondition(-2)
+	fmt.Println(switchCaseCondition(time.Sunday))
+	fmt.Println(switchCasewithoutCondition())
 }
